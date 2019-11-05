@@ -1,25 +1,12 @@
 import React from 'react';
 import PrimarySearchAppBar from './PrimarySearchAppBar';
-import RecipeReviewCard from './RecipeReviewCard';
-import Grid from '@material-ui/core/Grid';
-import Faker from 'faker';
+import BackGroundGrid from './BackgroundGrid';
 
 const App = () => {
   return (
     <div className="App">
       <PrimarySearchAppBar />
-      <Grid
-        container
-        direction="column"
-        alignItems="center"
-        justify="center"
-        spacing={1}
-      >
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-      </Grid>
-
+      <BackGroundGrid></BackGroundGrid>
     </div>
   );
 }
